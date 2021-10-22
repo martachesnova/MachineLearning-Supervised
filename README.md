@@ -6,7 +6,7 @@ LendingClub is a peer-to-peer lending services company that allows individual in
 
 I used this data to create machine learning models to classify the risk level of given loans. Specifically, I compared the Logistic Regression model and Random Forest Classifier.
 
-### Retrieve the data
+## Retrieve the data
 
 In the `Generator` folder in `Resources`, there is a [GenerateData.ipynb](/Resources/Generator/GenerateData.ipynb) notebook that will download data from LendingClub and output two CSVs: 
 
