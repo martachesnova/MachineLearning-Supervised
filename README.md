@@ -24,7 +24,7 @@ Note, there were categories in the 2019 loans that do not exist in the testing s
 
 ## Consider the models
 
-I created and compared two models on this data: a logistic regression, and a random forests classifier. Before I created, fitted, and scored the models, I made a prediction as to which model would perform better (I described why I thought one model would be better than other in the [Notebook](/CreditRiskEvaluator.ipynb). 
+I created and compared two models on this data: a logistic regression, and a random forests classifier. Before I created, fitted, and scored the models, I made a prediction as to which model would perform better (I described why I thought one model would be better than other in the [Credit Risk Evaluator Notebook](/CreditRiskEvaluator.ipynb)). 
 ## Fit a LogisticRegression model and RandomForestClassifier model
 
 I created a LogisticRegression model, fitted it to the data, and printed the model's score. Then, did the same for a RandomForestClassifier.
@@ -33,7 +33,7 @@ I created a LogisticRegression model, fitted it to the data, and printed the mod
 
 The data going into these models was never scaled, an important step in preprocessing. I used `StandardScaler` to scale the training and testing sets. Before re-fitting the LogisticRegression and RandomForestClassifier models on the scaled data, I made another prediction about how I thought scaling would affect the accuracy of the models. 
 
-Fitted and scored the LogisticRegression and RandomForestClassifier models on the scaled data. How did the model scores compare to each other, and to the previous results on unscaled data? How did this compare to my prediction? You can find my thoughts in the [Notebook](/CreditRiskEvaluator.ipynb).
+Fitted and scored the LogisticRegression and RandomForestClassifier models on the scaled data. How did the model scores compare to each other, and to the previous results on unscaled data? How did this compare to my prediction? You can find my thoughts in the [Credit Risk Evaluator Notebook](/CreditRiskEvaluator.ipynb).
 
 ### References
 
